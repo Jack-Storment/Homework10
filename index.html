@@ -1,0 +1,183 @@
+'<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+
+    <title>Team Profile</title>
+    <style>
+        h3,
+        h4,
+        p {
+            margin: 0px;
+            font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        }
+
+        .title {
+            text-align: center;
+            width: 960px;
+            margin: 0 auto;
+            position: relative;
+            padding: 20px;
+            background-color: rgb(230, 74, 88);
+            color: white;
+            font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        }
+
+        .content {
+            width: 960px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .outer {
+            padding: 50px 30px 5px;
+            display: inline-block;
+            vertical-align: top;
+            width: 200px;
+            height: 280px;
+        }
+
+        .box {
+            border-radius: 8px;
+            box-shadow: 5px 5px 5px rgb(85, 85, 85);
+        }
+
+        .heading {
+            padding: 10px;
+            color: white;
+            background-color: #0b98fd;
+            text-align: left;
+        }
+
+        h4 {
+            padding: 10px 10px 5px 10px;
+        }
+
+        .details {
+            min-height: 10rem;
+            padding: 18px;
+            background-color: #f1f1f1;
+        }
+
+
+        .details p {
+            border-top: 1px solid rgb(190, 190, 190);
+            border-left: 1px solid rgb(190, 190, 190);
+            border-right: 1px solid rgb(190, 190, 190);
+            padding: 8px;
+            font-size: small;
+            overflow-wrap: break-word;
+            text-align: left;
+        }
+
+        .item {
+            background-color: white;
+        }
+
+        .last-item {
+            border-bottom: 1px solid rgb(190, 190, 190);
+        }
+
+        .link {
+            color: rgb(51, 51, 255);
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="title">
+    <h2>My Team</h2>
+</div>
+<div class="content">
+
+    '<div class="outer">
+    <div class="box">
+        <div class="heading">
+            <h4>Manager</h4>
+            <h4><i class="fas fa-mug-hot"></i> Manager</h4>
+        </div>
+        <div class="details">
+            <div class="item">
+                <p>ID: <span>1</span></p>
+                <p>Email: <span class="link">manager@hotmail.com</span></p>
+                <p class="last-item">Office number: <span>42</span></p>
+            </div>
+        </div>
+    </div>
+</div>'
+'<div class="outer">
+    <div class="box">
+        <div class="heading">
+            <h4>Engineer</h4>
+            <h4><i class="fas fa-glasses"></i> Engineer</h4>
+        </div>
+        <div class="details">
+            <div class="item">
+                <p>ID: <span>2</span></p>
+                <p>Email: <span class="link">engineer@hotmail.com</span></p>
+                <p class="last-item">GitHub: <span class="link">EngineerNumberOne</span></p>
+            </div>
+        </div>
+    </div>
+</div>'
+'<div class="outer">
+    <div class="box">
+        <div class="heading">
+            <h4>Engineer two</h4>
+            <h4><i class="fas fa-glasses"></i> Engineer</h4>
+        </div>
+        <div class="details">
+            <div class="item">
+                <p>ID: <span>3</span></p>
+                <p>Email: <span class="link">engineer2@hotmail.com</span></p>
+                <p class="last-item">GitHub: <span class="link">engineerNumber2</span></p>
+            </div>
+        </div>
+    </div>
+</div>'
+'<div class="outer">
+    <div class="box">
+        <div class="heading">
+            <h4>Intern one</h4>
+            <h4><i class="fas fa-user-graduate"></i> Intern</h4>
+        </div>
+        <div class="details">
+            <div class="item">
+                <p>ID: <span>4</span></p>
+                <p>Email: <span class="link">intern1@hotmail.com</span></p>
+                <p class="last-item">School: <span>UNC Chapel-Hill</span></p>
+            </div>
+        </div>
+    </div>
+</div>'
+'<div class="outer">
+    <div class="box">
+        <div class="heading">
+            <h4>Intern Two</h4>
+            <h4><i class="fas fa-user-graduate"></i> Intern</h4>
+        </div>
+        <div class="details">
+            <div class="item">
+                <p>ID: <span>5</span></p>
+                <p>Email: <span class="link">intern2@hotmail.com</span></p>
+                <p class="last-item">School: <span>Harvard</span></p>
+            </div>
+        </div>
+    </div>
+</div>'
+
+</div>
+        
+        <script src="app.js" async defer></script>
+        <script src="Employee.js" async defer></script>
+        <script src="Engineer.js" async defer></script>
+        <script src="htmlRenderer.js" async defer></script>
+        <script src="Intern.js" async defer></script>
+        <script src="Manager.js" async defer></script>
+    </body>
+</html>
